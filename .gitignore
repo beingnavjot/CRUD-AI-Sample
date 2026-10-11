@@ -1,0 +1,26 @@
+# Secrets & Credentials
+*.json
+!mobile/android/app/google-services.json
+serviceAccountKey.json
+backend/serviceAccountKey.json
+.env
+*.key
+*.pem
+
+# Python / Backend
+**/__pycache__/
+*.pyc
+backend/venv/
+venv/
+
+# OS / IDE
+.DS_Store
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Cleanups / Temp
+python-*.pkg
+*.pkg
