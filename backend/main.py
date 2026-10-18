@@ -1,7 +1,11 @@
 import os
+from dotenv import load_dotenv
 from fastapi import FastAPI
 import firebase_admin
 from firebase_admin import credentials
+
+# Load environment variables from .env file if present
+load_dotenv()
 
 try:
     if os.path.exists("serviceAccountKey.json"):
